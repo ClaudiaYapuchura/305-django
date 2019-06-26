@@ -14,5 +14,5 @@ def mostrar_rolezinho(request):
     return render(request, 'rolezinho.html', {'roles':roles, 'bairro':bairro})
 
 def mostrar_cachorroquente(request):
-    
+    return render(request, 'cachorroquente.html')
     
